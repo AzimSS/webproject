@@ -1,0 +1,224 @@
+/* BASE CONFIG */
+@import "../css/fonts.css";
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+
+/* body.active {
+    background-color: #998585;
+} */
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.container {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    padding: 40px 0;
+}
+/* BASE CONFIG */
+
+/* BLOCK */
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(../img/mwimg3.webp) no-repeat center/cover;
+    transition: 0.5s;
+}
+
+.block {
+    height: 100%;
+    background-color: rgb(48, 43, 43);
+    box-shadow: 0 5px 45px rgba(20, 18, 18, 0.671);
+    display: flex;
+    align-items: center;
+}
+
+.block_item {
+    width: 50%;
+}
+
+.block-item {
+    text-align: center;
+}
+
+.block_item-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.block_item-btn {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+}
+/* BLOCK */
+/* FORM */
+
+.form_box {
+    background-color: #e6e6e6;
+    height: 100%;
+    width: 50%;
+    box-shadow: 0 5px 45px rgba(20, 18, 18, 0.671);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: 0.5s ease-in-out;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.form_box.active {
+    left: 50%;
+}
+
+.form {
+    width: 100%;
+    padding: 50px;
+    font-size: 16px;
+
+    position: absolute;
+    transition: 0.5s;
+}
+
+.form_signin {
+    left: 0;
+    transition-delay: 0.25s;
+}
+
+.form_signup {
+    left: 100%;
+    transition-delay: 0s;
+}
+
+.form_box.active .form_signin {
+    left: -100%;
+    transition-delay: 0s;
+}
+
+.form_box.active .form_signup {
+    left: 0;
+    transition-delay: 0.25s;
+}
+
+.form_title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #362e2e;
+}
+
+.form_inp {
+    width: 100%;
+    padding: 10px;
+    border: 1px #362e2e solid;
+    font-size: inherit;
+}
+
+.form_btn {
+    font-size: inherit;
+    background-color: rgb(48, 43, 43);
+    color: #fff;
+    padding: 10px 50px;
+}
+
+.icon {
+    color: rgb(48, 43, 43);
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.header_logo {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    color: rgb(48, 43, 43);
+    text-decoration: none;
+}
+
+.form_btn-signup {
+    background-color: rgb(48, 43, 43);
+}
+
+.form_forgot {
+    color: #000000;
+}
+
+/* FORM */
+/* FOOTER */
+.footer {
+    background: rgb(48, 43, 43);
+    padding: 113px 0;
+    position: relative;
+}
+
+.footer_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_left-title {
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.footer_links {
+    font-weight: 400px;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+    letter-spacing: 0.8px;
+}
+
+.footer_links:hover {
+    text-decoration: underline;
+}
+
+.footer_inp {
+    width: 390px;
+    height: 42px;
+    padding-left: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.footer_btn {
+    position: absolute;
+    border-radius: 5px;
+    width: 135px;
+    height: 47px;
+    color: #FFA62B;
+    background: #332;
+    left: 56%;
+    top: 43%;
+}
+
+.footer_left-subtitle {
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+}
+/* FOOTER */

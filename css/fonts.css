@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Rajdhani';
+    src: url('../fonts/Rajdhani-SemiBold.eot');
+    src: url('../fonts/Rajdhani-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Rajdhani-SemiBold.woff2') format('woff2'),
+        url('../fonts/Rajdhani-SemiBold.woff') format('woff'),
+        url('../fonts/Rajdhani-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rajdhani';
+    src: url('../fonts/Rajdhani-Regular.eot');
+    src: url('../fonts/Rajdhani-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Rajdhani-Regular.woff2') format('woff2'),
+        url('../fonts/Rajdhani-Regular.woff') format('woff'),
+        url('../fonts/Rajdhani-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
